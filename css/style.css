@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#ajaxTable {
+
+}
+
+
+#homeButton {
+  background-color: #E37222;
+}
+
+#textHeader {
+  color: #008B95;
+}

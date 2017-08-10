@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<sites>
+<link>
+	<title>Star Wars</title>
+	<url>http://www.starwars.com</url>
+</link>
+<link>
+	<title>Star Trek</title>
+	<url>http://www.startrek.com/</url>
+</link>
+<link>
+  <title>Doctor WHO</title>
+  <url>http://www.bbc.co.uk/programmes/b006q2x0</url>
+</link>
+<link>
+  <title>Motifake</title>
+  <url>http://www.motifake.com/</url>
+</link>
+<link>
+  <title>Hooli XYZ</title>
+  <url>http://www.hooli.xyz/</url>
+</link>
+<link>
+  <title>Pied Piper</title>
+  <url>http://www.piedpiper.com/</url>
+</link>
+<link>
+  <title>Unicef</title>
+  <url>https://www.unicef.org/</url>
+</link>
+<link>
+  <title>Netflix</title>
+  <url>https://www.netflix.com/</url>
+</link>
+<link>
+  <title>GitHub</title>
+  <url>https://github.com/</url>
+</link>
+<link>
+  <title>Cloud 9</title>
+  <url>https://c9.io/</url>
+</link>
+<link>
+  <title>Pinterest</title>
+  <url>https://www.pinterest.com/</url>
+</link>
+<link>
+  <title>Last Week Tonite</title>
+  <url>http://www.hbo.com/last-week-tonight-with-john-oliver</url>
+</link>
+<link>
+  <title>The Onion</title>
+  <url>http://www.theonion.com/</url>
+</link>
+<link>
+  <title>9GAG</title>
+  <url>http://9gag.com/</url>
+</link>
+</sites>

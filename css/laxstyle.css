@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#midText {
+  background-color: #E98E4E;
+}
+
+#homeButton {
+  background-color: #008B95;
+}
