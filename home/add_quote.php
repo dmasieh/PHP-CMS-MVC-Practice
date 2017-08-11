@@ -1,5 +1,5 @@
 <?php include '../view/header.php'; ?>
-
+<!--Form to add quotes-->
 <div class="container">
   <h3 id="textHeader">Add a Quote!</h3>
   <div class="row">

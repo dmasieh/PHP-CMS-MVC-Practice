@@ -10,7 +10,7 @@ if (isset($_POST['action'])) {
   $action = 'view_quotes';
 }
 
-// list the quotes brooo
+// list the quotes
 if ($action == 'view_quotes'){
   $quote = get_quotes();
   include ('list_quotes.php');
@@ -18,8 +18,8 @@ if ($action == 'view_quotes'){
 } else if ($action == 'delete_quote') {
   $quote_id = $_POST['quoteId'];
   delete_quote($quote_id);
+  // post an action to return the listing to determine what quote was deleted
 
-  // post an action to return the listing to determine what the delete_quote
   //$quote = get_quote();
   header("Location: .?quoteid=$quote_id");
   include ('list_quotes.php');
@@ -40,7 +40,7 @@ if ($action == 'view_quotes'){
     $quote = get_quotes();
     include ('list_quotes.php');
   }
-// else if for updating the quote
+// else if for updating the quotes and also GETting them by their primary key
 } else if ($action == 'update_quote') {
   if(isset($_GET['quoteId'])) {
     $quote_id = intval($_GET['quoteId']);
@@ -60,9 +60,11 @@ if ($action == 'view_quotes'){
   $quote_yr = $_POST['quoteYear'];
   $quote_text = $_POST['quoteText'];
 
+  /*Error message that prints when there are any empty form input fields*/
   if(empty($quote_id) || empty($quote_author) || empty($quote_yr) || empty($quote_text)) {
     $error = "Red 5 Stay On Target, Form will not work unless you fill out everything!";
   } else {
+    /*Update the quotes and then GET the updated list*/
     update_quote($quote_id, $quote_author, $quote_yr, $quote_text);
       $quote = get_quotes();
       include ('list_quotes.php');

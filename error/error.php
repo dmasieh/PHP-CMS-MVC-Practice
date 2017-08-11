@@ -1,3 +1,4 @@
+<!--Meant to inform the user that the form wasn't fully filled out-->
 <?php include '../view/header.php'; ?>
 <div class="container">
     <h1>Error, BROOOOOOOOOOOOO</h1>

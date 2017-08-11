@@ -4,13 +4,13 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="../web2glo2/css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../phpcms/css/materialize.css"  media="screen,projection"/>
 
       <!--Import style.css-->
-      <link type="text/css" rel="stylesheet" href="../web2glo2/css/laxstyle.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../phpcms/css/laxstyle.css"  media="screen,projection"/>
 
       <!--Shortcut Icon!-->
-      <link rel="shortcut icon" href="../web2glo2/images/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="../phpcms/images/favicon.ico" type="image/x-icon" />
 
       <title>Happy Thoughts</title>
 

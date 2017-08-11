@@ -1,3 +1,4 @@
+<!--Error Message printed out when there is a problem with the conection to the database-->
 <?php include '../view/header.php'; ?>
 <div class="container">
     <h1>Database Error, BROOOOOOOOOOO</h1>

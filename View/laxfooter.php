@@ -22,7 +22,7 @@
   </footer>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="../web2glo2/js/materialize.js"></script>
-  <script type="text/javascript" src="../web2glo2/js/init.js"></script>
+  <script type="text/javascript" src="../phpcms/js/materialize.js"></script>
+  <script type="text/javascript" src="../phpcms/js/init.js"></script>
   </body>
 </html>

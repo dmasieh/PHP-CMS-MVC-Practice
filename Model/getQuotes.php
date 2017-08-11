@@ -1,4 +1,6 @@
+
 <?php
+/*
 	function get_quotes() {
 		global $db;
 		$query = 'SELECT * FROM Quotes

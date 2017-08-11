@@ -1,64 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!--This xml file will be manipulated by an eXtensible Stylesheet Language file to display this data-->
 <?xml-stylesheet type="text/xsl" href="thoughts.xsl"?>
 <Advice>
   <thought>
-    <author>Robert California</author>
-    <quote>"I am the f****** lizard king!"</quote>
-    <year>2012</year>
-    <franchise>The Office</franchise>
+    <!--Add Whatever Data You Want To, unless you like "Hypothetical" Values-->
+    <author>Hypothetical</author>
+    <quote>Hypothetical</quote>
+    <year>Hypothetical</year>
+    <franchise>Hypothetical</franchise>
   </thought>
   <thought>
-    <author>Master Yoda</author>
-    <quote>“Judge me by my size, do you?”</quote>
-    <year>1980</year>
-    <franchise>Star Wars</franchise>
+    <author>Hypothetical</author>
+    <quote>Hypothetical</quote>
+    <year>Hypothetical</year>
+    <franchise>Hypothetical</franchise>
   </thought>
   <thought>
-    <author>Mr. Spock</author>
-    <quote>"Live Long and Prosper"</quote>
-    <year>1979</year>
-    <franchise>Star Trek</franchise>
+    <author>Hypothetical</author>
+    <quote>Hypothetical</quote>
+    <year>Hypothetical</year>
+    <franchise>Hypothetical</franchise>
   </thought>
   <thought>
-    <author>Evan Enke</author>
-    <quote>"What do ya mean you dont have any cats!!"</quote>
-    <year>2017</year>
-    <franchise>Basket Weaving 101</franchise>
+    <author>Hypothetical</author>
+    <quote>Hypothetical</quote>
+    <year>Hypothetical</year>
+    <franchise>Hypothetical</franchise>
   </thought>
   <thought>
-    <author>The Dude</author>
-    <quote>"...Nobody calls me Lebowski. You got the wrong guy. I am the Dude, man."</quote>
-    <year>1998</year>
-    <franchise>The Big Lebowski</franchise>
-  </thought>
-  <thought>
-    <author>Ron Burgundy</author>
-    <quote>"Do you know who I am?...I do not know how to put this, but, I am kind of a big deal...People know me."</quote>
-    <year>2004</year>
-    <franchise>Anchorman</franchise>
-  </thought>
-  <thought>
-    <author>Bob Wiley</author>
-    <quote>"Roses are red, violets are blue. I'm a schizophrenic and so am I."</quote>
-    <year>1991</year>
-    <franchise>What About Bob?</franchise>
-  </thought>
-  <thought>
-    <author>George Carlin</author>
-    <quote>"What does it mean to pre-board? Do you get on before you get on?"</quote>
-    <year>1996</year>
-    <franchise>Comedy Special</franchise>
-  </thought>
-  <thought>
-    <author>Bill Burr</author>
-    <quote>"You have no idea how long a year is until you’re stone sober."</quote>
-    <year>2008</year>
-    <franchise>Comedy Special</franchise>
-  </thought>
-  <thought>
-    <author>Jim Gaffigan</author>
-    <quote>"There is the vegetarian Hot Pocket for those of us who don't want to eat meat, but would still like diarrhea."</quote>
-    <year>2010</year>
-    <franchise>Comedy Special</franchise>
+    <author>Miscellaneous Author</author>
+    <quote>Miscellaneous Year</quote>
+    <year>Mystery Year</year>
+    <franchise>Who Knows?</franchise>
   </thought>
 </Advice>

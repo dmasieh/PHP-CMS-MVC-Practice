@@ -29,6 +29,7 @@
             <td><?php echo $quotes['quoteYear']; ?></td>
             <td><?php echo $quotes['quoteText']; ?></td>
             <td>
+              <!--Edit the information corresponding to their primary key value-->
               <a class="waves-effect waves-light btn" href="?action=update_quote&quoteId=<?php echo $quotes['quoteId']; ?>">Edit Value</a> <!--put a button here-->
             </td>
             <td>
@@ -43,7 +44,7 @@
             </td>
           </tr>
             <!--hypertext reference link above,indicating to edit each quote by the quote ID that is tied to each value,
-                  along with that, haveing a form right on the page like we have practiced in the guitar shop, without needing a delete_item.php
+                  along with that, having a form right on the page, without needing a delete_item.php
                   page, with the press of a button, one can just delete an item straight off-->
           <?php endforeach; ?>
         </tbody>

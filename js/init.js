@@ -1,3 +1,5 @@
+/*materialize style functions*/
+
 $(document).ready(function(){
       $('.parallax').parallax();
 });
@@ -6,6 +8,7 @@ $(document).ready(function(){
     $('ul.tabs').tabs();
 });
 
+/*Ajax for printing links from link.xml*/
 function showQuoteSite(str) {
   var xmlhttp;
   if (str.length == 0) {
@@ -22,6 +25,7 @@ function showQuoteSite(str) {
   xmlhttp.send();
 }
 
+/*Ajax for printing values from thoughts.xml*/
 var i = 0;
 var x;
 navXml(i);
@@ -37,6 +41,7 @@ function navXml(i) {
     xmlhttp.send();
 }
 
+/*Printing out individual xml values in a table from thoughts.xml*/
 function tableNav(xml, i) {
     var xmlDoc = xml.responseXML;
     x = xmlDoc.getElementsByTagName("thought");
@@ -50,6 +55,7 @@ function tableNav(xml, i) {
     "</td></tr>";
 }
 
+/*Methods for flipping through previous and next xml values from thoughts.xml*/
 function next() {
 if (i < x.length-1) {
   i++;
@@ -63,6 +69,7 @@ if (i > 0) {
   navXml(i);
   }
 }
+
 
 $(document).ready(function() {
    Materialize.updateTextFields();

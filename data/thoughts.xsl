@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--XSLT files act almost like HTML files, and can even themselves be styled by css and javascript-->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<!-- xsl template match is supposed to link the below html template to the xml data file that is calling it -->
 <xsl:template match="/">
 
   <html>
@@ -29,6 +31,7 @@
               <th>Associated With?</th>
             </tr>
           </thead>
+          <!-- XSL for-each loop that cycles through each "thought" and for each parent value, the set of child values are printed, all from the same neighboring xml file that is callng this xsl file -->
           <tbody>
             <xsl:for-each select="Advice/thought">
             <tr>
